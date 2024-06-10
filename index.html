@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Portfolio(all)Design.css">
+    <title>Portfolio(All)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            background: rgb(196, 125, 60);
+            height: 120px;
+            
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+            font-size: 17px;
+        }
+
+        .navbar a {
+            color: #000;
+        }
+
+        .sec1 {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 100px 100px 100px;
+        }
+
+        .left-text {
+            padding: 70px;
+        }
+
+        .left-text h1 {
+            font-size: 50px;
+        }
+
+        .left-text h4 {
+            font-size: 17px;
+            margin: 5px 0 5px 0;
+        }
+
+        .left-text a {
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            position: relative;
+            bottom: -40px;
+            border-radius: 12.5px;
+        }
+
+        .right-text img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .centered-text {
+            text-align: center;
+            padding: 20px;
+            margin-top: 150px;
+        }
+
+        .missionAndvision {
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+            padding: 50px;
+        }
+
+        .mAv-text h1 {
+            margin: 10px 0 10px 0;
+        }
+
+        .prelim {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px;
+            gap: 10px;
+        }
+
+        .prelim-img img {
+            width: 300px;
+            height: 300px;
+        }
+
+        .text-inside {
+            padding: 15px;
+            font-size: 10px;
+        }
+
+
+        .table,
+        th,
+        td {
+            border: 2px solid lightblue;
+            margin-left: 100px;
+        }
+
+
+        .footer {
+            background-color: black;
+            padding: 30px;
+            text-align: center;
+
+        }
+
+        .schedule {
+            margin-left: 400px;
+        }
+
+        .missionAndvision {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .container {
+            border-radius: 4.999%;
+            flex: 1;
+            padding: 70px;
+            margin: 10px;
+            border: 1px solid #000;
+            box-sizing: border-box;
+            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .container:hover {
+            transform: translateY(-20px);
+        }
+
+        .Button1:hover {
+            background-color: blue;
+        }
+        .horizontal-line {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px auto;
+    width: 100%;
+    margin-top: 90px;
+}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+
+            <h1>Portfolio <br> 1CS-E</h1>
+        </div>
+        <div class="navbar">
+            <ul> <a href="#">
+                    <li>Home</li>
+                </a>
+                <a href="#Mission">
+                    <li>About/MissionVision</li>
+                </a>
+                <a href="#">
+                    <li>Projects</li>
+                </a>
+                <a href="#schedule">
+                    <li>Activity/Schedule</li>
+                </a>
+                <a href="https://www.instagram.com/don_luiisss/"> 
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <section class="sec1">
+        <div class="left-text">
+            <h1>Hi, I am Luis Alberto B. Retuta</h1>
+            <h2 id="About me">About me:</h2> 
+            <h4> <br> taking Bachelor of Science in Computer Science. <br> I am 1st  year student and im going to pursue <br> this Course for my better future self </h4> <a href="#Prelim" class="Button1">CCS 114
+                Activity</a> 
+        </div>
+        <div class="right-text">
+            <img src="Portfolio.img/logo.png">
+        </div>
+        
+    </section>
+    <hr class="horizontal-line" id="Mission">
+    <div class="centered-text" >
+        <h1>Mission &amp; Vision</h1>
+    </div>
+    <div class="missionAndvision">
+        <div class="container">
+            <div class="mAv-text">
+                <h1>Mission</h1>
+                <p>As an institution of higher learning, Pamantasan ng Cabuyao is committed to equip individuals with
+                    knowledge, skills and values that will enable them to achieve their professional goals & provide
+                    leadership and service for national development.</p>
+            </div>
+            <h1>Vision</h1>
+            <p>A premier educational institution of higher learning in region 4, developing globally-competitive and
+                value-laden professionals, and leaders instrumental to community development and nation-building.
+            </p>
+        </div>
+    </div>
+    </div>
+    <hr class="horizontal-line">
+    <div style="padding: 100px 0 40px 0;" class="centered-text" id="Prelim">
+        <h1>Prelim</h1>
+    </div>
+    <div class="prelim">
+        <div class="prelim-img">
+            <img src="Portfolio.img/999999.jpg" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="Portfolio.img/000.jpg" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="Portfolio.img/1" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+    </div>
+    <div style="padding: 100px 0 40px 0;" class="centered-text">
+        <h1>Midterm</h1>
+    </div>
+    <div class="prelim">
+        <div class="prelim-img">
+            <img src="Portfolio.img/1.png" alt="">
+            <div class="text-inside">
+
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="Portfolio.img/3.png" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="Portfolio.img/4.png" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+    </div>
+    <div style="padding: 100px 0 40px 0;" class="centered-text">
+        <h1>Finals</h1>
+    </div>
+    <div class="prelim">
+        <div class="prelim-img">
+            <img src="Portfolio.img/final 1.png" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="Portfolio.img/final 6.png" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="Portfolio.img/final 5.png" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+        <div class="prelim-img">
+            <img src="Portfolio.img/final 2.png" alt="">
+            <div class="text-inside">
+                <h1>Activity No.1</h1>
+            </div>
+        </div>
+    </div>
+    <div class="schedule" id="schedule">
+        <table>
+            <tbody>
+                <tr bgcolor="Grey">
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr bgcolor="lightgrey">
+                    <td>7:00am - 8:30am<br>(COM101)</td>
+                    <td>7:00am - 10:00am<br>(CCS103)</td>
+                    <td></td>
+                    <td>7:00am - 8:30am<br>(COM101)</td>
+                    <td>7:00am - 10:00am<br>(CCS105)</td>
+                    <td rowspan="6">8:00am - 12:00pm<br>(NSTP)</td>
+                </tr>
+                <tr bgcolor="lightgrey">
+                    <td>8:30am - 10:00am<br>(HIS101)</td>
+                    <td>10:00am - 11:30am<br>(HMN101)</td>
+                    <td></td>
+                    <td>10:00am - 11:30am<br>(HIS101)</td>
+                    <td>10:00am - 11:30am<br>(HMN101)</td>
+                    <td></td>
+                </tr>
+                <tr rowspan="3" bgcolor="lightblue">
+                    <th>V</th>
+                    <th>A</th>
+                    <th>C</th>
+                    <th>A</th>
+                    <th>NT</th>
+                </tr>
+                <tr bgcolor="lightgrey">
+                    <td>2:00pm - 4:00pm<br>(P.E102)</td>
+                    <td>1:00pm - 4:00pm<br>(CCS114)</td>
+                    <td></td>
+                    <td>1:00pm - 3:00pm<br>(CCS105)</td>
+                    <td>1:00pm - 3:00pm<br>(CCS103)</td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="lightgrey">
+                    <td>4:00pm - 5:00pm<br>(PHD102)</td>
+                    <td>5:00pm - 7:00pm<br>(CCS105)</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <footer>
+            <p>Retuta Luis Alberto B. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
